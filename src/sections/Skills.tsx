@@ -28,7 +28,7 @@ const skills = [
     icon: Image,
     description: '图像处理与设计',
     color: 'from-blue-400 to-cyan-500',
-    images: [withBase("/images/personal_photo.jpg"), withBase("/images/firework.jpg"), withBase("/images/afternoon_tea.jpg")],
+    images: [withBase("./images/personal_photo.jpg"), withBase("./images/firework.jpg"), withBase("./images/afternoon_tea.jpg")],
   },
   {
     name: '剪映',
@@ -37,7 +37,7 @@ const skills = [
     icon: Video,
     description: '视频剪辑与后期',
     color: 'from-purple-400 to-pink-500',
-    videos: [withBase("/videos/UAV.mp4"), withBase("/videos/firework.mp4"), withBase("/videos/firework2.mp4"), withBase("/videos/HappyNewYear.mp4")],
+    videos: [withBase("./videos/UAV.mp4"), withBase("./videos/firework.mp4"), withBase("./videos/firework2.mp4"), withBase("./videos/HappyNewYear.mp4")],
   },
   {
     name: '吉他',
@@ -46,7 +46,7 @@ const skills = [
     icon: Music,
     description: '音乐演奏',
     color: 'from-orange-400 to-red-500',
-    videos: [withBase("/videos/guitar.mp4")],
+    videos: [withBase("./videos/guitar.mp4")],
   },
   {
     name: 'Keil',
@@ -55,7 +55,7 @@ const skills = [
     icon: Microchip,
     description: '嵌入式开发',
     color: 'from-neon-green to-emerald-500',
-    videos: [withBase("/videos/object_tracking.mp4"), withBase("/videos/SCARA-1.mp4"), withBase("/videos/SCARA-2.mp4")],
+    videos: [withBase("./videos/object_tracking.mp4"), withBase("./videos/SCARA-1.mp4"), withBase("./videos/SCARA-2.mp4")],
   },
   {
     name: 'VScode/PyCharm',
@@ -64,7 +64,7 @@ const skills = [
     icon: Terminal,
     description: 'Python开发',
     color: 'from-yellow-400 to-orange-500',
-    images: [withBase("/images/PyQT.png"), withBase("/images/PyQT.jpg")]
+    images: [withBase("./images/PyQT.png"), withBase("./images/PyQT.jpg")]
   },
   {
     name: 'SolidWorks',
@@ -73,7 +73,7 @@ const skills = [
     icon: Box,
     description: '3D建模与设计',
     color: 'from-red-400 to-pink-500',
-    videos: [withBase("/videos/tracked_vehicle.mp4"), withBase("/videos/worm_SW.mp4")],
+    videos: [withBase("./videos/tracked_vehicle.mp4"), withBase("./videos/worm_SW.mp4")],
   },
   {
     name: 'MATLAB',
@@ -82,7 +82,7 @@ const skills = [
     icon: Calculator,
     description: '科学计算与仿真',
     color: 'from-neon-cyan to-blue-500',
-    videos: [withBase("/videos/delta.mp4"), withBase("/videos/SCARA_MATLAB.mp4"), withBase("/videos/SCARA_MATLAB2.mp4")],
+    videos: [withBase("./videos/delta.mp4"), withBase("./videos/SCARA_MATLAB.mp4"), withBase("./videos/SCARA_MATLAB2.mp4")],
   },
 ];
 

@@ -182,7 +182,7 @@ export default function About({ language }: AboutProps) {
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
                   {/* 个人照片 */}
                   <img 
-                    src={withBase("/images/personal_photo3.png")}
+                    src={withBase("./images/personal_photo3.png")}
                     alt={isEnglish ? 'ChongEn Huang' : '黄崇恩'}
                     className="w-full h-full object-cover"
                   />

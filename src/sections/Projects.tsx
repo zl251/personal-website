@@ -16,7 +16,7 @@ const projects = [
     technologies: ['参会地点：北京 国家会议中心', '发表EI论文1篇'],
     icon: Target,
     color: 'from-neon-green to-emerald-500',
-    images: [withBase("/images/AOPC1.jpg"),withBase("/images/AOPC2.jpg")],
+    images: [withBase("./images/AOPC1.jpg"),withBase("./images/AOPC2.jpg")],
   },
     {
     title: '反无人机',
@@ -26,7 +26,7 @@ const projects = [
     technologies: ['参会地点：厦门 国际会议中心'],
     icon: Target,
     color: 'from-neon-green to-emerald-500',
-    images: [withBase("/images/Amoy Conference_1.jpg"),withBase("/images/Amoy Conference_2.jpg")],
+    images: [withBase("./images/Amoy Conference_1.jpg"),withBase("./images/Amoy Conference_2.jpg")],
   },
   {
     title: '福建省低空经济保障体系发展战略研究           ',
@@ -36,7 +36,7 @@ const projects = [
     technologies: ['PyTorch', 'OpenCV', 'CUDA', 'STM32'],
     icon: Target,
     color: 'from-neon-green to-emerald-500',
-    images: [withBase("/images/object_tracking.gif")],
+    images: [withBase("./images/object_tracking.gif")],
   },
   {
     title: '2022中国大学生电动方程式大赛全国一等奖',
@@ -46,7 +46,7 @@ const projects = [
     technologies: ['STM32','C语言', 'ROS', 'SolidWorks'],
     icon: Cpu,
     color: 'from-neon-cyan to-blue-500',
-    images: [withBase("/images/smart_desktop_pet.gif")],
+    images: [withBase("./images/smart_desktop_pet.gif")],
   },
   {
     title: '超分',
@@ -56,7 +56,7 @@ const projects = [
     technologies: ['PyQT', 'PyTorch', 'STM32'],
     icon: Code2,
     color: 'from-neon-purple to-violet-500',
-    videos: [withBase("/videos/graduation_design.mp4")],
+    videos: [withBase("./videos/graduation_design.mp4")],
   },
   {
     title: '汽车离合器',
@@ -66,7 +66,7 @@ const projects = [
     technologies: ['PyQT', 'BP神经网络', 'PyTorch', 'STM32'],
     icon: Code2,
     color: 'from-neon-purple to-violet-500',
-    images: [withBase("/images/Intelligent_fire_alarm_system.png"),withBase("/images/Intelligent_fire_alarm_system_workflow.png"),withBase("/images/Intelligent_fire_alarm_system_effect.png")],
+    images: [withBase("./images/Intelligent_fire_alarm_system.png"),withBase("./images/Intelligent_fire_alarm_system_workflow.png"),withBase("./images/Intelligent_fire_alarm_system_effect.png")],
   },
   {
     title: '糕点切片机',
@@ -76,7 +76,7 @@ const projects = [
     technologies: ['高斯滤波', '边缘检测', '空洞填充', '视觉测量'],
     icon: Briefcase,
     color: 'from-orange-400 to-red-500',
-    videos: [withBase("/videos/Parts_picking_system.mp4")],
+    videos: [withBase("./videos/Parts_picking_system.mp4")],
   },
   
   {
@@ -87,7 +87,7 @@ const projects = [
     technologies: [],
     icon: Cpu,
     color: 'from-neon-cyan to-blue-500',
-    images: [withBase("/images/volunteer1.jpg"),withBase("/images/volunteer2.jpg")],
+    images: [withBase("./images/volunteer1.jpg"),withBase("./images/volunteer2.jpg")],
   },
 
 ];

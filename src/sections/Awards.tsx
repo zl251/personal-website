@@ -141,10 +141,10 @@ const awards: Record<
 };
 
 const galleryItems = [
-  { src: withBase("/images/cert-4.png"), label: "" },
-  { src: withBase("/images/cert-3.png"), label: "" },
-  { src: withBase("/images/cert-2.png"), label: "" },
-  { src: withBase("/images/cert-1.png"), label: "" },
+  { src: withBase("./images/cert-4.png"), label: "" },
+  { src: withBase("./images/cert-3.png"), label: "" },
+  { src: withBase("./images/cert-2.png"), label: "" },
+  { src: withBase("./images/cert-1.png"), label: "" },
 ];
 
 interface AwardsProps {

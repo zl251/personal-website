@@ -241,7 +241,7 @@ export default function Footer({ language }: FooterProps) {
 
             {/* QR Code */}
             <div className="bg-white rounded-xl p-4 inline-block mb-4">
-              <img src={withBase("/images/QR_code.jpg")} alt="WeChat QR Code" className="w-48 h-48" />
+              <img src={withBase("./images/QR_code.jpg")} alt="WeChat QR Code" className="w-48 h-48" />
             </div>
 
             <p className="text-white/40 text-xs">

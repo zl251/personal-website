@@ -257,7 +257,7 @@ export default function Hero({ language }: HeroProps) {
             {/* QR Code placeholder - 替换为你的真实二维码图片 */}
             <div className="bg-white rounded-xl p-4 inline-block mb-4">
               {/* TODO: 将下面的 placeholder 替换为你的微信二维码图片 */}
-              <img src={withBase("/images/QR_code.jpg")} alt="WeChat QR Code" className="w-48 h-48" />
+              <img src={withBase("./images/QR_code.jpg")} alt="WeChat QR Code" className="w-48 h-48" />
               {/* <div className="w-48 h-48 flex items-center justify-center text-gray-400 text-sm border-2 border-dashed border-gray-300 rounded-lg">
                 <span>请替换为二维码图片</span>
               </div> */}
